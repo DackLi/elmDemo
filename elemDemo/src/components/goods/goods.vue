@@ -29,6 +29,7 @@
                 <span class="old" v-if="food.oldPrice">${{food.oldPrice}}</span>
               </div>
               <div class="cartcontrol-wrapper">
+                  测试
                  <v-cartconcontrol :foo="food" @add="cartdrop($event)"></v-cartconcontrol>
               </div>
             </div>
